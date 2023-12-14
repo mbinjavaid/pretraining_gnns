@@ -7,7 +7,7 @@
 - [ ] **self_supervised:** contains the code for reproducing the results of Section 6.2 of the thesis with the GIN models as well as Section 6.3 of the thesis, using variants of the self-supervised pre-training techniques (Attribute Masking and Context Prediction) for GIN and GCN models. Allows to fine-tune on the downstream datasets with multi-task supervised pre-training alone, a self-supervised pre-training technique alone, a self-supervised pre-training technique followed by multi-task supervised pre-training, or no pre-training.
 - [ ] **functional_groups_analysis:** contains the code for reproducing the results of Section 6.5 of the thesis.
 
-## Important Note
+## Instructions
 
 Please note that the pre-training and fine-tuning scripts require the presence of the `Train/raw/` directory with the pre-processed dataset CSV files present in it. Pre-processing involves removing duplicates, molecules with faulty SMILES, and, in the case of the pre-training datasets, removing molecules which are also present in the downstream datasets. The same directory also contains smarts_queries.txt, which contains the SMARTS strings of 130 functional groups, which is required to generate graph objects from the pre-processed CSV files.
 
