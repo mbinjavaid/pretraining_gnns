@@ -1,5 +1,7 @@
 # pretraining_gnns
 
+Link to thesis report: https://drive.google.com/file/d/1b59pnE5rmfEuOURAaISTkfGsc3k0nVjo/view?usp=sharing
+
 ## Structure of repository
 
 - [ ] **datasets:** contains the original (non-preprocessed) datasets in the form of XLSX or CSV files with SMILES strings and molecular property labels.
